@@ -23,8 +23,11 @@ The following three (or more) key protocols were successfully captured and ident
 | **ICMP** | `icmp` | Observed **Echo Request** (ping) and **Echo Reply** packets, confirming network connectivity. | Often blocked by firewalls to prevent network mapping. |
 | **HTTP** | `http` | Observed a **GET request** packet containing the full URL in **clear text**. | **CRITICAL:** Data (cookies, headers) is unencrypted and visible to anyone capturing traffic. |
 
-## 💡 Deliverables and Learning Outcome
+## ✅ Deliverables and Findings
 
-* **Packet Capture File:** The full capture file (`Network_Capture.pcap`) was saved but not uploaded due to its large size (100MB+).
-* **Verification Screenshot:** Screenshot showing filtered HTTP traffic is attached.
-* **Learning:** This task demonstrated the critical difference between **HTTP (unencrypted)** and **HTTPS (encrypted)** and reinforced the importance of packet analysis for network troubleshooting and security assessment.
+* **Packet Capture File:** The full capture file was saved (`Network_Capture.pcap`) but was **not uploaded due to its large size (100MB+), exceeding GitHub's limits.**
+* **Verification Screenshots (Attached):**
+    * `Screenshot_ICMP_Traffic.jpg`
+    * `Screenshot_DNS_Traffic.jpg`
+    * `Screenshot_HTTP_Traffic.jpg` (Primary verification of analysis)
+* **Findings:** [Your table summarizing HTTP, DNS, and ICMP]
